@@ -1,0 +1,120 @@
+body {
+    font-family: "Balsamiq Sans", cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url("gym.webp");
+    background-size: cover;
+    margin: auto;
+    color: white;
+  }
+  
+  .left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 3%;
+    height: 10%;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+  }
+  
+  .right {
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 64px;
+    top: 45px;
+  }
+  
+  .mid {
+    /* border: 2px solid yellow; */
+    display: block;
+    margin: auto;
+    width: 40%;
+    position: relative;
+    top: 35px;
+    bottom: 25px;
+  }
+  
+  .navbar {
+    display: inline-block;
+  }
+  
+  .navbar li {
+    /* float: left; */
+    list-style: none;
+    display: inline-block;
+    padding: 10px 13px;
+    margin: 7px 6px;
+    font-size: 20px;
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration:none;
+    color: grey;
+  }
+  
+  .left img {
+    width: 43px;
+    filter: invert(100%);
+    margin: auto;
+  }
+  
+  .left div {
+    text-align: center;
+    font-size: 11px;
+    position: absolute;
+    top: 39px;
+  }
+  
+  .btn {
+    font-family: "Balsamiq Sans", cursive;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 3px 7px;
+    margin: 18px 17px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(206, 201, 201);
+  }
+  
+  .container {
+    border: 2px solid white;
+    text-align: center;
+    font-size: 12px;
+    padding: 75px;
+    margin: 195px 64px 35px 64px;
+    display: block;
+    width: 33%;
+    border-radius: 28px;
+  }
+  
+  .form-group input {
+    border: 2px solid black;
+    padding: 6px 135px;
+    margin: 3px 20px;
+    font-size: 17px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Balsamiq Sans", cursive;
+  }
+  
+  .container button {
+    text-align: center;
+    border: 2px solid white;
+    padding: 7px 191px;
+    margin: 19px 20px;
+    font-size: 17px;
+    border-radius: 7px;
+  }
